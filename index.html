@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/icone.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <title>Pokémon</title>
+</head>
+
+<body>
+    <header>
+        <img src="Images/logo.png" alt="">
+    </header>
+    <div class="general">
+        <div class="menu">
+            <p>Génération : </p>
+            <select name="gen_choice">
+                <option>Première</option>
+                <option>Deuxième</option>
+                <option>Troisième</option>
+                <option>Quatrième</option>
+                <option>Cinquième</option>
+                <option>Sixième</option>
+                <option>Septième</option>
+                <option>Huitième</option>
+            </select>
+        </div>
+        <div class="glob">
+            <div id="poke_list" class="sub_glob">
+                <ul></ul>
+            </div>
+            <div id="description" class="sub_glob">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
